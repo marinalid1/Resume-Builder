@@ -1,0 +1,53 @@
+/* Matthew Rinaldi, Web115, 11/30/2020, finalProject.css */
+
+/* h1 color red and black solid border */
+h1 {
+    color:red;
+    border-bottom: 2px solid black;
+}
+/* h2 color red and dashed solid border */
+h2 {
+    color:red;
+    font-size: 22px;
+    border-bottom: 1px dashed black;
+}
+/* div gray and 20px font size */
+div {
+    color:gray;
+    font-size: 18px;
+}
+/* banner gray with red text*/
+.banner {
+    background-color: gray;
+    color: red;
+}
+/* Sets font-family to verdana */
+body {
+    font-family:verdana;
+  }
+/* Padding to top of p element */
+p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/* Sets div element theLeft to text black, width 40%, etc... */
+  div#theLeft {
+    clear:both;
+    width:40%;
+    float:left;
+    color: black;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 4px;
+  }
+  
+/* Sets div element theRight to text black, width 50%, etc... */
+  div#theRight {
+    width:80%;
+    float:right;
+    color: black;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 4px;
+ 
+  }

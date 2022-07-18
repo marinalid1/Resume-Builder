@@ -1,0 +1,30 @@
+<html>
+<head>
+<title> Pop-up on the fly </title>
+<script>
+
+function myWindow()
+{
+    visitorName = document.getElementById("myInput").value;
+    myText = ("<h1>" + "Hello" + "</h1>" + visitorName + ", this page was created on-the-fly!");
+  
+
+    var win = window.open('','printwindow');
+    win.document.write('<html>');
+    win.document.write('<head><title>Print it!</title></head><link rel="stylesheet" type="text/css" href="finalProject.css">');
+    win.document.write('<body>');
+    win.document.write(myText);
+    win.document.write('</body></html>');
+}
+
+</script>
+</head>
+
+<body>
+<form id = "myForm">
+
+<input type = "text" id = "myInput" value = "Please enter your name." />
+<input type = "button" id = "myButton" value = "Create HTML on-the-fly" onclick="myWindow()" />
+</form>
+</body>
+</html>
